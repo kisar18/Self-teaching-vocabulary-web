@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Powerwolf</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../../artists-styles.css">
+	</head>
+	<body class="Body-Powerwolf">
+		<div class="Powerwolf-title-image"></div>
+		<h1 class="Artist-page-title">Choose song or add new one</h1>
+	<div class="Songs">
+		<div class="song-row">
+			<span class="song-name song-header song-column">Name of the song</span>
+			<span class="song-album song-header song-column">Album</span>
+			<span class="song-button song-header song-column">Click for Vocabulary</span>
+		</div>
+	</div>
+	<form class="form" action="Powerwolf.html" method="GET" autocomplete="off">
+		<label for="name" class="name-label">Name of the song:</label>
+		<input type="text" name="name" id="name" class="inputs name-input">
+		<label for="album" class="album-label">Album:</label>
+			<select name="album" id="album" class="inputs album-input">
+				<option value="None">None</option>
+				<option value="Return in Bloodred">Return in Bloodred</option>
+				<option value="Lupus Dei">Lupus Dei</option>
+				<option value="Bible of the Beast">Bible of the Beast</option>
+				<option value="Blood of the Saints">Blood of the Saints</option>
+				<option value="Preachers of the Night">Preachers of the Night</option>
+				<option value="Blessed & Possessed">Blessed & Possessed</option>
+				<option value="The Sacrament of Sin">The Sacrament of Sin</option>
+			</select>
+		<div class="buttons">
+			<button type="button" class="button b-add">Add a new song</button>
+			<button type="reset" class="button b-reset">Reset</button>
+		</div>
+	</form>
+	<script defer src="../../script.js"></script>
+	</body>
+</html>

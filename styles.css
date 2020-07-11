@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+.Body-Main {
+    background-image:url(pictures/bgmain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Body-Languages {
+    background-image:url(pictures/bgmain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 188%;
+}
+
+.Main-title {
+    font-size: 75px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.Second-title {
+    font-size: 70px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.Languages-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Artists-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Artists-names {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Name-title {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+
+a.Languages {
+    line-height: 385px;
+    color: white;
+    font-size: 60px;
+}
+
+.English {
+    width: 800px;
+    height: 400px;
+    border-radius: 50%;
+    background-image:url(pictures/ukFlag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.Spanish {
+    width: 800px;
+    height: 400px;
+    border-radius: 50%;
+    background-image:url(pictures/spaFlag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.Powerwolf {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:url(pictures/EngArtists/powerwolf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Taylor {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:url(pictures/EngArtists/taylor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Madonna {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:url(pictures/EngArtists/madonna2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Maluma {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:url(pictures/SpaArtists/maluma.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Thalia {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:url(pictures/SpaArtists/thalia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Fonsi {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+    background-image:url(pictures/SpaArtists/luisFonsi2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
